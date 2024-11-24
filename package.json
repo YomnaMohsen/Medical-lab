@@ -1,0 +1,27 @@
+{
+  "name": "medical-lab",
+  "version": "1.0.0",
+  "description": "backend system for medical investigation lab",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YomnaMohsen/Medical-lab.git"
+  },
+  "author": "Yomna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YomnaMohsen/Medical-lab/issues"
+  },
+  "homepage": "https://github.com/YomnaMohsen/Medical-lab#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
